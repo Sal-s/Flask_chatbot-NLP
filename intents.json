@@ -1,0 +1,152 @@
+{
+  "intents": [
+    {
+      "tag": "General Information",
+      "patterns": [
+        "What does BIT stand for?",
+        "Tell me about Bannari Amman Institute of Technology.",
+        "What kind of institution is BIT?",
+        "Where is BIT located?"
+      ],
+      "responses": [
+        "BIT stands for Bannari Amman Institute of Technology.",
+        "Bannari Amman Institute of Technology (BIT) is a prominent educational institution known for its quality education and infrastructure.",
+        "BIT is an institute of higher education that offers various courses and programs in technical fields.",
+        "Bannari Amman Institute of Technology (BIT) is located in Sathyamangalam, Erode."
+      ]
+    },
+    {
+      "tag": "Infrastructure and Facilities",
+      "patterns": [
+        "Can you give more details about BIT's infrastructure?",
+        "What facilities can be found in the labs at Bannari Amman Institute of Technology?",
+        "Does Bannari Amman Institute of Technology offer accommodation options?",
+        "What additional facilities are accessible to the students and faculty of BIT Erode?"
+      ],
+      "responses": [
+        "Bannari Amman Institute of Technology (BIT) boasts modern facilities and spacious classrooms as part of its infrastructure.",
+        "The Bannari Amman Institute of Technology houses a variety of labs as part of its infrastructure.",
+        "Yes, hostel accommodations are available at the Bannari Amman Institute of Technology for both male and female students.",
+        "Bannari Amman Institute of Technology provides access to sports, gym, medical, transportation, and Wi-Fi facilities to its students and faculty."
+      ]
+    },
+    {
+      "tag": "Academic Programs and Quality",
+      "patterns": [
+        "What programs does BIT offer?",
+        "How is BIT's reputation in terms of education quality?",
+        "Can you share any notable achievements of BIT?",
+        "How does BIT contribute to the education sector?"
+      ],
+      "responses": [
+        "Bannari Amman Institute of Technology (BIT) offers a wide range of academic programs in engineering, technology, and other related fields.",
+        "Bannari Amman Institute of Technology (BIT) has built a strong reputation for delivering quality education and producing skilled graduates in various disciplines.",
+        "Bannari Amman Institute of Technology (BIT) has achieved recognition for its contributions to technical education and has received accolades for student achievements in competitions and projects.",
+        "Bannari Amman Institute of Technology (BIT) plays a significant role in shaping the future by providing quality education, fostering innovation, and producing skilled professionals."
+      ]
+    },
+    {
+      "tag": "Placement and Achievements",
+      "patterns": [
+        "Is Bannari Amman Institute of Technology (BIT) currently accepting admissions for 2023?",
+        "Have the placements for 2023 been announced by Bannari Amman Institute of Technology?",
+        "How many companies have visited the Bannari Amman Institute of Technology campus for placements in 2023?",
+        "What was the highest package offered during the 2023 placements at BIT?",
+        "Which company made the highest placement offer in 2023 at BIT?"
+      ],
+      "responses": [
+        "Yes, BIT is currently accepting admissions for various programs for the year 2023.",
+        "Yes, Bannari Amman Institute of Technology has released its placements report for 2023.",
+        "According to the placements report, more than 200 companies have visited the campus for placements in 2023.",
+        "The highest package offered during the 2023 placements at Bannari Amman Institute of Technology was INR 44 LPA.",
+        "Virtusa made the highest placement offer of INR 44 LPA during the 2023 placements at Bannari Amman Institute of Technology."
+      ]
+    },
+    {
+      "tag": "Library and Learning Resources",
+      "patterns": [
+        "How extensive is the library collection at Bannari Amman Institute of Technology?",
+        "What variety of resources are available in the library?",
+        "Are there any video courses available at the library?",
+        "What affiliations or memberships does the library hold?"
+      ],
+      "responses": [
+        "Bannari Amman Institute of Technology Library boasts an impressive collection of 83,000 volumes, ensuring a wealth of academic resources.",
+        "The library features 400 National and International Journals, 6,500 CD-ROMs, and a Digital Library housing 6,000 e-journals.",
+        "Yes, the library offers 274 NPTEL and 166 NITTTR video courses, providing multimedia learning options.",
+        "Bannari Amman Institute of Technology is an Institutional member of the British Council Library in Chennai, DELNET in New Delhi, and the INDEST Consortium in New Delhi."
+      ]
+    },
+    {
+      "tag": "Hostel Facilities",
+      "patterns": [
+        "How many beds are available in the Boys Hostel at Bannari Amman Institute of Technology?",
+        "What types of accommodations are available in the Boys Hostel?",
+        "What additional facilities are accessible to the students and faculty of BIT Erode?",
+        "What are the available labs and facilities at Bannari Amman Institute of Technology?"
+      ],
+      "responses": [
+        "The Boys Hostel at Bannari Amman Institute of Technology offers accommodation for 2,500 students in both single occupancy and shared rooms.",
+        "The Boys Hostel provides both single occupancy and shared rooms for students at Bannari Amman Institute of Technology.",
+        "Students and faculty at Bannari Amman Institute of Technology have access to sports facilities, gym, medical services, transportation, and Wi-Fi.",
+        "Bannari Amman Institute of Technology houses a variety of labs, including computer labs, electronics labs, and mechanical labs, providing students with hands-on learning experiences."
+      ]
+    },
+    {
+      "tag": "Student Activities and Clubs",
+      "patterns": [
+        "What student clubs are active at Bannari Amman Institute of Technology?",
+        "Tell me more about the coding club at Bannari Amman Institute of Technology.",
+        "What are the cultural activities organized by the students of BIT?",
+        "Are there any technical clubs in Bannari Amman Institute of Technology?"
+      ],
+      "responses": [
+        "Bannari Amman Institute of Technology boasts a variety of active student clubs, including coding, robotics, cultural, and technical clubs.",
+        "The coding club at Bannari Amman Institute of Technology focuses on programming skills, coding competitions, and hackathons to enhance students' coding abilities.",
+        "Students at BIT organize cultural activities such as festivals, talent shows, and cultural nights, showcasing their diverse talents and creativity.",
+        "Yes, there are technical clubs at Bannari Amman Institute of Technology, where students can explore and enhance their skills in various technical domains."
+      ]
+    },
+    {
+      "tag": "Career Opportunities and Internships",
+      "patterns": [
+        "What career opportunities are available for students after graduating from BIT?",
+        "Does Bannari Amman Institute of Technology offer internships to its students?",
+        "How does BIT support students in securing internships and job placements?",
+        "Are there any collaborations between BIT and industries for internships and job placements?"
+      ],
+      "responses": [
+        "Graduates from Bannari Amman Institute of Technology have a wide array of career opportunities, including roles in top companies, research organizations, and startups.",
+        "Yes, Bannari Amman Institute of Technology facilitates internships for its students, providing valuable real-world experience.",
+        "BIT has a dedicated placement cell that assists students in securing internships and job placements through campus drives, industry collaborations, and career guidance.",
+        "Bannari Amman Institute of Technology collaborates with various industries, fostering partnerships that create internship and job placement opportunities for its students."
+      ]
+    },
+    {
+      "tag": "Admissions and Eligibility",
+      "patterns": [
+        "What is the eligibility criteria for admissions at Bannari Amman Institute of Technology?",
+        "Can you provide information about the entrance exams accepted for admissions at BIT?",
+        "What is the application process for international students applying to Bannari Amman Institute of Technology?",
+        "What documents are required for admissions at BIT?"
+      ],
+      "responses": [
+        "The eligibility criteria for admissions at Bannari Amman Institute of Technology vary based on the course. Generally, candidates must have passed their 10+2 examinations with relevant subjects.",
+        "Bannari Amman Institute of Technology accepts various entrance exams such as JEE Main, TNEA, and other state-level engineering entrance exams for admissions.",
+        "International students can apply to Bannari Amman Institute of Technology through the Foreign National/PIO/Children of Indian Workers in Gulf Countries category. The application process involves submitting relevant documents and fulfilling eligibility criteria.",
+        "Documents required for admissions at BIT include 10th and 12th-grade mark sheets, transfer certificate, conduct certificate, entrance exam scorecard (if applicable), and passport-sized photographs."
+      ]
+    },
+    {
+      "tag": "Academic Assessment",
+      "patterns": [
+        "How PT question paper will come? Give any demo model.",
+        "What is meant by PT"
+      ],
+      "responses": [
+        "In PT1, you may face 50 marks from 2.5 Units, 20 marks from the first Unit in section A with an option to omit the question, 20 marks from the second Unit in section B with an option to omit the question, 10 marks from the third Unit in section C with an option to omit the question. PT2 follows a similar pattern with questions from different units.",
+        "PT stands for Periodical Test or internal Test"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITBOT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .chat-container {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-messages {
+            height: 300px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+
+        .user-message {
+            background-color: #2979ff;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+
+        .bot-message {
+            background-color: #4caf50;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .input-container {
+            display: flex;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .send-button {
+            background-color: #2979ff;
+            color: #ffffff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="chat-messages" id="chat-messages"></div>
+        <div id="chat-history">
+            {% for entry in history %}
+                <div class="message">
+                    <strong>User:</strong> {{ entry.user }}<br>
+                    <strong>Bot:</strong> {{ entry.bot }}
+                </div>
+            {% endfor %}
+        </div>
+        <div class="input-container">
+            <input type="text" class="chat-input" id="user-input" placeholder="Type your message...">
+            <button class="send-button" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var userInput = document.getElementById('user-input').value;
+            if (!userInput) return;
+
+            var chatMessages = document.getElementById('chat-messages');
+            var userMessage = document.createElement('div');
+            userMessage.className = 'user-message';
+            userMessage.textContent = userInput;
+            chatMessages.appendChild(userMessage);
+
+            // Send user input to the server
+            $.ajax({
+                type: 'POST',
+                url: '/get_response',  // Update this URL to match your Flask server endpoint
+                data: { 'user_input': userInput },
+                success: function(response) {
+                    var botResponse = response.bot_response;
+                    var botMessage = document.createElement('div');
+                    botMessage.className = 'bot-message';
+                    botMessage.textContent = botResponse;
+                    chatMessages.appendChild(botMessage);
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                }
+            });
+
+            // Clear the input field
+            document.getElementById('user-input').value = '';
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
